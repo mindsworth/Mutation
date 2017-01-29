@@ -5,6 +5,8 @@ function mutation(arr) {
   var sElement = arr[1].toLowerCase();
   var result;
   
+  //A FOR LOOP
+  
   for(var i = 0; i < sElement.length; i++) {
     
     result = fElement.indexOf(sElement[i]);
